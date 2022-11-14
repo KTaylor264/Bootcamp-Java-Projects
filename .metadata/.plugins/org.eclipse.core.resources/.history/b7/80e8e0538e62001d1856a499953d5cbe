@@ -1,0 +1,12 @@
+@charset "ISO-8859-1";
+
+.gold-margin {
+		margin: 10px;
+}
+
+.gold-box {
+	display: flex;
+	border: 2px solid black;
+	margin: 10px;
+	max-width: 200px;
+}

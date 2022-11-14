@@ -1,0 +1,11 @@
+@charset "ISO-8859-1";
+
+function openDate()
+{
+	alert("This is the date template");
+}
+
+function openTime()
+{
+	alert("This is the time template");
+}

@@ -1,0 +1,8 @@
+@charset "ISO-8859-1";
+
+.title {
+	display: flex;
+	justify-content: center;
+	vertical-align: center;
+	height: 400px;
+}

@@ -1,0 +1,56 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@ page language="java" import="java.util.Date"%>
+<%@ page language="java" import="java.text.SimpleDateFormat"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<!-- for Bootstrap CSS -->
+<link rel="stylesheet" href="/webjars/bootstrap/css/bootstrap.min.css" />
+<!-- YOUR own local CSS -->
+<link rel="stylesheet" href="/css/main.css"/>
+<!-- For any Bootstrap that uses JS or jQuery-->
+<script src="/webjars/jquery/jquery.min.js"></script>
+<script src="/webjars/bootstrap/js/bootstrap.min.js"></script>
+<script src="js/function.js"></script>
+<script type="text/javascript">
+	$(document).ready(function () {openDate();});
+</script>
+<title>Display Date: Date Page</title>
+
+</head>
+<body>
+	<%Date futureDate= new Date(128, 0, 22);%>
+	<%String stringDate = "";%>
+
+	<% switch (futureDate.getDay()) { case 0: stringDate = stringDate.concat("Sunday"); %>
+		<% case 1: stringDate = stringDate.concat("Monday"); %>
+		<% case 2: stringDate = stringDate.concat("Tuesday"); %>
+		<% case 3: stringDate = stringDate.concat("Wednesday"); %>
+		<% case 4: stringDate = stringDate.concat("Thursday"); %>
+		<% case 5: stringDate = stringDate.concat("Friday"); %>
+		<% case 6: stringDate = stringDate.concat("Saturday"); }%>
+	<% stringDate = stringDate.concat(" the "); %>
+	<% stringDate = stringDate.concat(" " + String.valueOf(futureDate.getDate()) + " "); %>
+	
+	<% switch (futureDate.getMonth()) { case 0: { stringDate = stringDate.concat("January"); } %>
+		<% case 1: { stringDate = stringDate.concat("February"); } %>
+		<% case 2: { stringDate = stringDate.concat("March"); } %>
+		<% case 3: { stringDate = stringDate.concat("April"); } %>
+		<% case 4: { stringDate = stringDate.concat("May"); } %>
+		<% case 5: { stringDate = stringDate.concat("June"); } %>
+		<% case 6: { stringDate = stringDate.concat("July"); } %>
+		<% case 7: { stringDate = stringDate.concat("August"); } %>
+		<% case 8: { stringDate = stringDate.concat("September"); } %>
+		<% case 9: { stringDate = stringDate.concat("October"); } %>
+		<% case 10: { stringDate = stringDate.concat("November"); } %>
+		<% case 11: { stringDate = stringDate.concat("December"); } } %>
+	
+	<% stringDate = stringDate.concat(String.valueOf(futureDate.getYear())); %>
+	<div class="container text-center align-items-center">
+		<h1><%=stringDate %>/h1>
+	</div>
+</body>
+</html>

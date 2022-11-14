@@ -1,0 +1,40 @@
+@charset "ISO-8859-1";
+
+.form-border {
+	display: flex;
+	justify-content: center;
+	border: 2px solid black;
+	margin: 20px;
+	max-width: 500px;
+}
+
+.results-border {
+	background-color: blue;
+	border: 2px solid black;
+	margin: 20px;
+	max-width: 500px;
+}
+
+.sm-box {
+	margin: 20px;
+}
+
+.sm-box label {
+	display: block;
+}
+
+.send {
+	font-style: italic;
+}
+
+.send-div {
+	display: flex;
+	justify-content: flex-end;
+	margin: 20px;
+}
+
+.send-div input {
+	background-color: blue;
+	color: white;
+	box-shadow: 4px 4px black;
+}

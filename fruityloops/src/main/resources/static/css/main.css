@@ -1,0 +1,9 @@
+@charset "ISO-8859-1";
+
+.fruitHeader {
+	color: pink;
+}
+
+.fruitTable {
+	border: 20px solid pink;
+}

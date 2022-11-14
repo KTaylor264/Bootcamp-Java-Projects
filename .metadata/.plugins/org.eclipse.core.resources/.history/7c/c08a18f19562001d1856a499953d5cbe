@@ -1,0 +1,21 @@
+package com.kendelltaylor.ninjagoldgame.controllers;
+
+import javax.servlet.http.HttpSession;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class GoldController {
+
+	@RequestMapping("/gold")
+	public String goldGame(HttpSession session)
+	{
+		if (session.getAttribute("gold") == null)
+		{
+			session.setAttribute("gold", 0);
+		}
+		
+		return "gold.jsp";
+	}
+}

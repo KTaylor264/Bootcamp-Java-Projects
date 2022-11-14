@@ -1,0 +1,5 @@
+package com.kendelltaylor.ninjagoldgame.controllers;
+
+public class GoldController {
+
+}

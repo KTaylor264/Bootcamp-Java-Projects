@@ -1,0 +1,17 @@
+INDEX VERSION 1.131
+C:\Users\ktayl\Documents\Bootcamp Assignments\Java\Week 5 Assignments\STS Assignments\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1247233541.index
+\ninjagoldgame\src\main\java
+C:\Users\ktayl\Documents\Bootcamp Assignments\Java\Week 5 Assignments\STS Assignments\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2736206003.index
+\fruityloops\src\main\java
+C:\Users\ktayl\Documents\Bootcamp Assignments\Java\Week 5 Assignments\STS Assignments\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4293001083.index
+\hopperreceipt\src\main\java
+C:\Users\ktayl\Documents\Bootcamp Assignments\Java\Week 5 Assignments\STS Assignments\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4183693249.index
+\Counter\src\main\java
+C:\Users\ktayl\Documents\Bootcamp Assignments\Java\Week 5 Assignments\STS Assignments\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3722684359.index
+\omikujiform\src\main\java
+C:\Users\ktayl\Documents\Bootcamp Assignments\Java\Week 5 Assignments\STS Assignments\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3795396520.index
+\displaydate\src\main\java
+C:\Users\ktayl\Documents\Bootcamp Assignments\Java\Week 5 Assignments\STS Assignments\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2979018346.index
+\daikichi\src\main\java
+C:\Users\ktayl\Documents\Bootcamp Assignments\Java\Week 5 Assignments\STS Assignments\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2405250778.index
+\hopperreceipt\src\main\java

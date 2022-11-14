@@ -1,0 +1,13 @@
+@charset "ISO-8859-1";
+
+.date {
+	display: flex;
+	height: 400px;
+	color: blue;
+}
+
+.time {
+	display: flex;
+	height: 400px;
+	color: green;
+}
