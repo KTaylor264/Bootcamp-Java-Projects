@@ -1,6 +1,0 @@
-@charset "ISO-8859-1";
-
-.title {
-	vertical-align: middle;
-	height: 400px;
-}

@@ -1,6 +1,0 @@
-@charset "ISO-8859-1";
-
-.gold-box {
-	border: 2px solid black;
-	margin: 10px;
-}
