@@ -1,5 +1,51 @@
 @charset "ISO-8859-1";
 
+* {
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	padding: 20px 0;
+}
+
 .container {
-	margin: 20px;
+	margin: 30px;
+}
+
+table {
+	text-align: center;
+	border: 2px solid black;
+	border-collapse: collapse;
+}
+
+table th {
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+	background-color: grey;
+}
+
+table th:first-child {
+	border-left: none;
+}
+
+table th:last-child {
+	border-right: none;
+}
+
+table td {
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+}
+
+table td:first-child {
+	border-left: none;
+}
+
+table td:last-child {
+	border-right: none;
+}
+
+table tr:nth-child(odd) {
+	background-color: lightgrey;
 }
