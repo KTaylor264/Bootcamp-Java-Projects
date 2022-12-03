@@ -70,7 +70,7 @@ public class BookService {
     	Optional<Book> optionalBook = bookRepository.findById(id);
     	if (optionalBook.isPresent())
     	{
-    		bookRepository.delete(optionalBook.get());
+    		bookRepository.deleteById(id);
     	}
     }
 }

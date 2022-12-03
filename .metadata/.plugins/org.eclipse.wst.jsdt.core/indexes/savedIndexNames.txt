@@ -1,14 +1,11 @@
 INDEX VERSION 1.4+C:\Users\ktayl\Documents\Bootcamp Assignments\Java\Week 5 Assignments\STS Assignments\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
-671175441.index
-3072116092.index
-1297013223.index
-3966514539.index
-444851668.index
-4099427194.index
-1868285860.index
 2767158002.index
-2573405483.index
+4099427194.index
+775658243.index
+444851668.index
+1297013223.index
+890392135.index
 3554469235.index
-1984590866.index
-1622530059.index
-1602203810.index
+2573405483.index
+671175441.index
+3966514539.index

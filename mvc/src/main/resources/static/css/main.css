@@ -49,3 +49,21 @@ table td:last-child {
 table tr:nth-child(odd) {
 	background-color: lightgrey;
 }
+
+.grey-container {
+	background-color: lightgrey;
+	padding: 30px;
+}
+
+.white-container {
+	background-color: white;
+	padding: 10px;
+}
+
+.box {
+	margin: 5px 0;
+}
+
+.text-danger {
+	color: red;
+}
