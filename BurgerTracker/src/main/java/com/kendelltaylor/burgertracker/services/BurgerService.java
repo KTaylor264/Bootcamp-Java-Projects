@@ -61,6 +61,23 @@ public class BurgerService {
 		}
 	}
 	
+	public Burger updateBurger (Burger burger)
+	{
+		Optional<Burger> optionalBurger = burgerRepository.findById(burger.getId());
+		if (optionalBurger.isPresent())
+		{
+			optionalBurger.get().setBurgerName(burger.getBurgerName());
+			optionalBurger.get().setRestaurantName(burger.getBurgerName());
+			optionalBurger.get().setRating(burger.getRating());
+			
+			return burgerRepository.save(optionalBurger.get());
+		}
+		else
+		{
+			return null;
+		}
+	}
+	
 	// deletes a burger
 	public void deleteBurger (Long id)
 	{

@@ -66,6 +66,7 @@ public class BurgerController {
 		}
 		else
 		{
+			burgerService.updateBurger(burger);
 			return "redirect:/";
 		}
 	}
