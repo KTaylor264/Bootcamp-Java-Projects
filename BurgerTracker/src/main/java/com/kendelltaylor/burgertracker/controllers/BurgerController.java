@@ -9,8 +9,9 @@ import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.PutMapping;
 
 import com.kendelltaylor.burgertracker.models.Burger;
 import com.kendelltaylor.burgertracker.services.BurgerService;
@@ -43,13 +44,29 @@ public class BurgerController {
 	{
 		List<Burger> burgers = burgerService.allBurgers();
 		
-		for (int i = 0; i < burgers.size(); i++)
-		{
-			System.out.println(burgers.get(i));
-		}
-		
 		model.addAttribute("burgers", burgers);
 		
 		return "index.jsp";
+	}
+	
+	@GetMapping("/burgers/edit/{id}")
+	public String editBurger (@PathVariable("id") Long id, Model model)
+	{
+		Burger burger = burgerService.findBurger(id);
+		model.addAttribute("burger", burger);
+		return "edit.jsp";
+	}
+	
+	@PutMapping("/burgers/{id}")
+	public String update (@Valid @ModelAttribute("burger") Burger burger, BindingResult result)
+	{
+		if (result.hasErrors())
+		{
+			return "edit.jsp";
+		}
+		else
+		{
+			return "redirect:/";
+		}
 	}
 }

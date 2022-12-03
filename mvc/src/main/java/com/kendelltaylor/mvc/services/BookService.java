@@ -64,6 +64,26 @@ public class BookService {
     	}
     }
     
+    public Book updateBook(Book book)
+    {
+    	Optional<Book> optionalBook = bookRepository.findById(book.getId());
+    	if (optionalBook.isPresent())
+    	{
+    		optionalBook.get().setTitle(book.getTitle());
+    		optionalBook.get().setDescription(book.getDescription());
+    		optionalBook.get().setLanguage(book.getLanguage());
+    		optionalBook.get().setNumberOfPages(book.getNumberOfPages());
+    		
+    		return bookRepository.save(optionalBook.get());
+    		
+    		// return optionalBook.get();
+    	}
+    	else
+    	{
+    		return null;
+    	}
+    }
+    
     // deletes a book
     public void deleteBook(Long id)
     {

@@ -71,3 +71,28 @@ table tr:nth-child(odd) {
 	padding: 4px;
 	box-shadow: 4px 4px black;
 }
+
+.div-design {
+	display: flex;
+	justify-content: space-between;
+}
+
+.p-design {
+	display: flex;
+	justify-content: space-between;
+	margin: 20px 0;
+}
+
+.form-label {
+	flex: 1;
+}
+
+.form-input {
+	flex: 2;
+	border: 2px solid black;
+}
+
+.right-side {
+	display: flex;
+	justify-content: flex-end;
+}
