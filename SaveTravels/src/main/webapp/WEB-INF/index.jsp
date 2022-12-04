@@ -48,7 +48,7 @@
 	<div class="bottom-box">
 		<h2 class="blue-title">Add an Expense: </h2>
 		<p class="text-danger">Description must not be blank</p><br>
-				<form:form action="/create" method="post" modelAttribute="expense">
+		<form:form action="/create" method="post" modelAttribute="expense">
 			<div class="p-design">
 				<form:label path="expenseName" class="form-label">Expense Name: </form:label>
 				<form:errors path="expenseName" class="text-danger"/>

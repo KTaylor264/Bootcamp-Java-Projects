@@ -11,6 +11,8 @@ C:\Users\ktayl\Documents\Bootcamp Assignments\Java\Week 5 Assignments\STS Assign
 \hopperreceipt\src\main\java
 C:\Users\ktayl\Documents\Bootcamp Assignments\Java\Week 5 Assignments\STS Assignments\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4293001083.index
 \hopperreceipt\src\main\java
+C:\Users\ktayl\Documents\Bootcamp Assignments\Java\Week 5 Assignments\STS Assignments\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2891669877.index
+\DojosAndNinjas\src\main\java
 C:\Users\ktayl\Documents\Bootcamp Assignments\Java\Week 5 Assignments\STS Assignments\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3795396520.index
 \displaydate\src\main\java
 C:\Users\ktayl\Documents\Bootcamp Assignments\Java\Week 5 Assignments\STS Assignments\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3722684359.index
