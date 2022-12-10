@@ -1,0 +1,125 @@
+@charset "ISO-8859-1";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	margin: 50px;
+}
+
+.header {
+	display: block;
+}
+
+.header h2 {
+	margin: 20px 0;
+}
+
+.header-two {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header-two p {
+	margin: 20px 0;
+}
+
+.indent {
+	margin: 0 40px;
+	color: red;
+}
+
+.purple {
+	color: purple;
+}
+
+h1 {
+	margin: 20px 0;
+}
+
+.bottom-box {
+	display: flex;
+}
+
+.side-box {
+	flex: 1;
+}
+
+.p-design {
+	display: flex;
+	justify-content: space-evenly;
+	margin: 20px 60px 20px 0;
+}
+
+.form-label {
+	flex: 1;
+}
+
+.form-input {
+	flex: 1;
+	border: 2px solid black;
+}
+
+.form-input-two {
+	flex: 2;
+	border: 2px solid black;
+}
+
+.text-danger {
+	color: red;
+}
+
+.submit-btn {
+	padding: 4px;
+	box-shadow: 2px 2px black;
+}
+
+table {
+	text-align: center;
+	border: 2px solid black;
+	border-collapse: collapse;
+}
+
+table th {
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+	background-color: grey;
+}
+
+table th:first-child {
+	border-left: none;
+}
+
+table th:last-child {
+	border-right: none;
+}
+
+table td {
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+}
+
+table td:first-child {
+	border-left: none;
+}
+
+table td:last-child {
+	border-right: none;
+}
+
+table tr:nth-child(odd) {
+	background-color: lightgrey;
+}
+
+.grey-container {
+	background-color: lightgrey;
+	padding: 30px;
+}
+
+.white-container {
+	background-color: white;
+	padding: 10px;
+}
