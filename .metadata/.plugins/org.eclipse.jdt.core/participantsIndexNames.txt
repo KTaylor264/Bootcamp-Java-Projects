@@ -3,6 +3,8 @@ C:\Users\ktayl\Documents\Bootcamp Assignments\Java\Week 5 Assignments\STS Assign
 \daikichi\src\main\java
 C:\Users\ktayl\Documents\Bootcamp Assignments\Java\Week 5 Assignments\STS Assignments\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1247233541.index
 \ninjagoldgame\src\main\java
+C:\Users\ktayl\Documents\Bootcamp Assignments\Java\Week 5 Assignments\STS Assignments\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3890780861.index
+\Authentication\src\main\java
 C:\Users\ktayl\Documents\Bootcamp Assignments\Java\Week 5 Assignments\STS Assignments\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2573405483.index
 \mvc\src\main\java
 C:\Users\ktayl\Documents\Bootcamp Assignments\Java\Week 5 Assignments\STS Assignments\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\890392135.index

@@ -1,0 +1,54 @@
+@charset "ISO-8859-1";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	margin: 50px;
+}
+
+.header {
+	display: block;
+}
+
+.purple {
+	color: purple;
+}
+
+h1 {
+	margin: 20px 0;
+}
+
+.bottom-box {
+	display: flex;
+}
+
+.side-box {
+	flex: 1;
+}
+
+.p-design {
+	display: flex;
+	justify-content: space-evenly;
+	margin: 20px 60px 20px 0;
+}
+
+.form-label {
+	flex: 1;
+}
+
+.form-input {
+	flex: 1;
+	border: 2px solid black;
+}
+
+.text-danger {
+	color: red;
+}
+
+.submit-btn {
+	padding: 4px;
+	box-shadow: 2px 2px black;
+}
